@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B178CE23990F96002A8708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178CD23990F96002A8708 /* AppDelegate.swift */; };
+		02B178D023990F96002A8708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178CF23990F96002A8708 /* SceneDelegate.swift */; };
+		02B178D223990F96002A8708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178D123990F96002A8708 /* ContentView.swift */; };
+		02B178D423990F97002A8708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B178D323990F97002A8708 /* Assets.xcassets */; };
+		02B178D723990F97002A8708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B178D623990F97002A8708 /* Preview Assets.xcassets */; };
+		02B178DA23990F97002A8708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B178D823990F97002A8708 /* LaunchScreen.storyboard */; };
+		02B178E523990F97002A8708 /* ReneFireBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178E423990F97002A8708 /* ReneFireBaseTests.swift */; };
+		02B178F023990F97002A8708 /* ReneFireBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178EF23990F97002A8708 /* ReneFireBaseUITests.swift */; };
+		02B17906239910A8002A8708 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178FD239910A8002A8708 /* ItemDetailViewController.swift */; };
+		02B17907239910A8002A8708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178FE239910A8002A8708 /* AppDelegate.swift */; };
+		02B17908239910A8002A8708 /* addShopItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B178FF239910A8002A8708 /* addShopItemViewController.swift */; };
+		02B17909239910A8002A8708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17900239910A8002A8708 /* ViewController.swift */; };
+		02B1790A239910A8002A8708 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17901239910A8002A8708 /* StateController.swift */; };
+		02B1790B239910A8002A8708 /* DummyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17902239910A8002A8708 /* DummyDB.swift */; };
+		02B1790C239910A8002A8708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17903239910A8002A8708 /* SceneDelegate.swift */; };
+		02B1790D239910A8002A8708 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17904239910A8002A8708 /* ShoppingItem.swift */; };
+		02B1790E239910A8002A8708 /* cellenavn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B17905239910A8002A8708 /* cellenavn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B178E123990F97002A8708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B178C223990F96002A8708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B178C923990F96002A8708;
+			remoteInfo = ReneFireBase;
+		};
+		02B178EC23990F97002A8708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B178C223990F96002A8708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B178C923990F96002A8708;
+			remoteInfo = ReneFireBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B178CA23990F96002A8708 /* ReneFireBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReneFireBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B178CD23990F96002A8708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02B178CF23990F96002A8708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02B178D123990F96002A8708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02B178D323990F97002A8708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B178D623990F97002A8708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B178D923990F97002A8708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B178DB23990F97002A8708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B178E023990F97002A8708 /* ReneFireBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReneFireBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B178E423990F97002A8708 /* ReneFireBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReneFireBaseTests.swift; sourceTree = "<group>"; };
+		02B178E623990F97002A8708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B178EB23990F97002A8708 /* ReneFireBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReneFireBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B178EF23990F97002A8708 /* ReneFireBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReneFireBaseUITests.swift; sourceTree = "<group>"; };
+		02B178F123990F97002A8708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B178FD239910A8002A8708 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		02B178FE239910A8002A8708 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Desktop/test/AppDelegate.swift; sourceTree = "<group>"; };
+		02B178FF239910A8002A8708 /* addShopItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addShopItemViewController.swift; sourceTree = "<group>"; };
+		02B17900239910A8002A8708 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02B17901239910A8002A8708 /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		02B17902239910A8002A8708 /* DummyDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyDB.swift; sourceTree = "<group>"; };
+		02B17903239910A8002A8708 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../../Desktop/test/SceneDelegate.swift; sourceTree = "<group>"; };
+		02B17904239910A8002A8708 /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		02B17905239910A8002A8708 /* cellenavn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellenavn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B178C723990F96002A8708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178DD23990F97002A8708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178E823990F97002A8708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B178C123990F96002A8708 = {
+			isa = PBXGroup;
+			children = (
+				02B178CC23990F96002A8708 /* ReneFireBase */,
+				02B178E323990F97002A8708 /* ReneFireBaseTests */,
+				02B178EE23990F97002A8708 /* ReneFireBaseUITests */,
+				02B178CB23990F96002A8708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B178CB23990F96002A8708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B178CA23990F96002A8708 /* ReneFireBase.app */,
+				02B178E023990F97002A8708 /* ReneFireBaseTests.xctest */,
+				02B178EB23990F97002A8708 /* ReneFireBaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B178CC23990F96002A8708 /* ReneFireBase */ = {
+			isa = PBXGroup;
+			children = (
+				02B178FF239910A8002A8708 /* addShopItemViewController.swift */,
+				02B178CD23990F96002A8708 /* AppDelegate.swift */,
+				02B178CF23990F96002A8708 /* SceneDelegate.swift */,
+				02B178FE239910A8002A8708 /* AppDelegate.swift */,
+				02B17905239910A8002A8708 /* cellenavn.swift */,
+				02B17902239910A8002A8708 /* DummyDB.swift */,
+				02B178FD239910A8002A8708 /* ItemDetailViewController.swift */,
+				02B17903239910A8002A8708 /* SceneDelegate.swift */,
+				02B17904239910A8002A8708 /* ShoppingItem.swift */,
+				02B17901239910A8002A8708 /* StateController.swift */,
+				02B17900239910A8002A8708 /* ViewController.swift */,
+				02B178D123990F96002A8708 /* ContentView.swift */,
+				02B178D323990F97002A8708 /* Assets.xcassets */,
+				02B178D823990F97002A8708 /* LaunchScreen.storyboard */,
+				02B178DB23990F97002A8708 /* Info.plist */,
+				02B178D523990F97002A8708 /* Preview Content */,
+			);
+			path = ReneFireBase;
+			sourceTree = "<group>";
+		};
+		02B178D523990F97002A8708 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B178D623990F97002A8708 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02B178E323990F97002A8708 /* ReneFireBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B178E423990F97002A8708 /* ReneFireBaseTests.swift */,
+				02B178E623990F97002A8708 /* Info.plist */,
+			);
+			path = ReneFireBaseTests;
+			sourceTree = "<group>";
+		};
+		02B178EE23990F97002A8708 /* ReneFireBaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B178EF23990F97002A8708 /* ReneFireBaseUITests.swift */,
+				02B178F123990F97002A8708 /* Info.plist */,
+			);
+			path = ReneFireBaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B178C923990F96002A8708 /* ReneFireBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B178F423990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBase" */;
+			buildPhases = (
+				02B178C623990F96002A8708 /* Sources */,
+				02B178C723990F96002A8708 /* Frameworks */,
+				02B178C823990F96002A8708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReneFireBase;
+			productName = ReneFireBase;
+			productReference = 02B178CA23990F96002A8708 /* ReneFireBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B178DF23990F97002A8708 /* ReneFireBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B178F723990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBaseTests" */;
+			buildPhases = (
+				02B178DC23990F97002A8708 /* Sources */,
+				02B178DD23990F97002A8708 /* Frameworks */,
+				02B178DE23990F97002A8708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B178E223990F97002A8708 /* PBXTargetDependency */,
+			);
+			name = ReneFireBaseTests;
+			productName = ReneFireBaseTests;
+			productReference = 02B178E023990F97002A8708 /* ReneFireBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02B178EA23990F97002A8708 /* ReneFireBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B178FA23990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBaseUITests" */;
+			buildPhases = (
+				02B178E723990F97002A8708 /* Sources */,
+				02B178E823990F97002A8708 /* Frameworks */,
+				02B178E923990F97002A8708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B178ED23990F97002A8708 /* PBXTargetDependency */,
+			);
+			name = ReneFireBaseUITests;
+			productName = ReneFireBaseUITests;
+			productReference = 02B178EB23990F97002A8708 /* ReneFireBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B178C223990F96002A8708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Madeleine Harbom";
+				TargetAttributes = {
+					02B178C923990F96002A8708 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					02B178DF23990F97002A8708 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 02B178C923990F96002A8708;
+					};
+					02B178EA23990F97002A8708 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 02B178C923990F96002A8708;
+					};
+				};
+			};
+			buildConfigurationList = 02B178C523990F96002A8708 /* Build configuration list for PBXProject "ReneFireBase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B178C123990F96002A8708;
+			productRefGroup = 02B178CB23990F96002A8708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B178C923990F96002A8708 /* ReneFireBase */,
+				02B178DF23990F97002A8708 /* ReneFireBaseTests */,
+				02B178EA23990F97002A8708 /* ReneFireBaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B178C823990F96002A8708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B178DA23990F97002A8708 /* LaunchScreen.storyboard in Resources */,
+				02B178D723990F97002A8708 /* Preview Assets.xcassets in Resources */,
+				02B178D423990F97002A8708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178DE23990F97002A8708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178E923990F97002A8708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B178C623990F96002A8708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B178CE23990F96002A8708 /* AppDelegate.swift in Sources */,
+				02B1790D239910A8002A8708 /* ShoppingItem.swift in Sources */,
+				02B178D023990F96002A8708 /* SceneDelegate.swift in Sources */,
+				02B17906239910A8002A8708 /* ItemDetailViewController.swift in Sources */,
+				02B17907239910A8002A8708 /* AppDelegate.swift in Sources */,
+				02B1790B239910A8002A8708 /* DummyDB.swift in Sources */,
+				02B1790E239910A8002A8708 /* cellenavn.swift in Sources */,
+				02B1790C239910A8002A8708 /* SceneDelegate.swift in Sources */,
+				02B17909239910A8002A8708 /* ViewController.swift in Sources */,
+				02B1790A239910A8002A8708 /* StateController.swift in Sources */,
+				02B178D223990F96002A8708 /* ContentView.swift in Sources */,
+				02B17908239910A8002A8708 /* addShopItemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178DC23990F97002A8708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B178E523990F97002A8708 /* ReneFireBaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B178E723990F97002A8708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B178F023990F97002A8708 /* ReneFireBaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B178E223990F97002A8708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B178C923990F96002A8708 /* ReneFireBase */;
+			targetProxy = 02B178E123990F97002A8708 /* PBXContainerItemProxy */;
+		};
+		02B178ED23990F97002A8708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B178C923990F96002A8708 /* ReneFireBase */;
+			targetProxy = 02B178EC23990F97002A8708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B178D823990F97002A8708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B178D923990F97002A8708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B178F223990F97002A8708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02B178F323990F97002A8708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B178F523990F98002A8708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReneFireBase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReneFireBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02B178F623990F98002A8708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReneFireBase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReneFireBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02B178F823990F98002A8708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReneFireBaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReneFireBase.app/ReneFireBase";
+			};
+			name = Debug;
+		};
+		02B178F923990F98002A8708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReneFireBaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReneFireBase.app/ReneFireBase";
+			};
+			name = Release;
+		};
+		02B178FB23990F98002A8708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReneFireBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReneFireBase;
+			};
+			name = Debug;
+		};
+		02B178FC23990F98002A8708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReneFireBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = made.ReneFireBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReneFireBase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B178C523990F96002A8708 /* Build configuration list for PBXProject "ReneFireBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B178F223990F97002A8708 /* Debug */,
+				02B178F323990F97002A8708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B178F423990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B178F523990F98002A8708 /* Debug */,
+				02B178F623990F98002A8708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B178F723990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B178F823990F98002A8708 /* Debug */,
+				02B178F923990F98002A8708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B178FA23990F98002A8708 /* Build configuration list for PBXNativeTarget "ReneFireBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B178FB23990F98002A8708 /* Debug */,
+				02B178FC23990F98002A8708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B178C223990F96002A8708 /* Project object */;
+}
